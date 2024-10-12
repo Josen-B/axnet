@@ -27,12 +27,12 @@ spin = "0.9"
 driver_net = { git = "https://github.com/Starry-OS/driver_net.git" }
 lazy_init = { git = "https://github.com/Starry-OS/lazy_init.git" }
 axerrno = { git = "https://github.com/Starry-OS/axerrno.git" }
-axhal = { git = "https://github.com/Starry-OS/axhal.git" }
-axsync = { git = "https://github.com/Starry-OS/axsync.git" }
-axtask = { git = "https://github.com/Starry-OS/axtask.git" }
-axdriver = { git = "https://github.com/Starry-OS/axdriver.git", features = ["net"] }
+axhal = { git = "https://github.com/Josen-B/axhal.git" }
+axsync = { git = "https://github.com/Josen-B/axsync.git" }
+axtask = { git = "https://github.com/Josen-B/axtask.git" }
+axdriver = { git = "https://github.com/Josen-B/axdriver.git", features = ["net"] }
 axio = { git = "https://github.com/Starry-OS/axio.git" }
-axprocess = { git = "https://github.com/Starry-OS/axprocess.git", optional = true }
+axprocess = { git = "https://github.com/Josen-B/axprocess.git", optional = true }
 
 [dependencies.smoltcp]
 git = "https://github.com/rcore-os/smoltcp.git"
